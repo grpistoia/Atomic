@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AtomicAtom",
+	"category" : "Atomic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AtomicFluor",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+testing
+isSmallScreen
+	^ mapStyle isSmallScreen

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AtomicMap",
+	"category" : "Atomic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AtomicMap27",
+	"type" : "normal"
+}

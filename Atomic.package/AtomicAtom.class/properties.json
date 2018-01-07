@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "AtomicComponent",
+	"category" : "Atomic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"links",
+		"forcedLinks",
+		"previewPosition"
+	],
+	"name" : "AtomicAtom",
+	"type" : "normal"
+}

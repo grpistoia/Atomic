@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AtomicComponent",
+	"category" : "Atomic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AtomicBrick",
+	"type" : "normal"
+}

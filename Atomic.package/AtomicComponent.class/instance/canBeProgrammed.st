@@ -1,0 +1,3 @@
+testing
+canBeProgrammed
+	^ isMoving not

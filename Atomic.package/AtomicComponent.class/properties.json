@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "StephaneDucasse 2/13/2015 20:11",
+	"super" : "BorderedMorph",
+	"category" : "Atomic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"isActive",
+		"isMoving",
+		"mapStyle",
+		"futurePosition"
+	],
+	"name" : "AtomicComponent",
+	"type" : "normal"
+}

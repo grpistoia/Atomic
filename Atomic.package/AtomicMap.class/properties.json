@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Atomic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mapStyle",
+		"layout",
+		"previewExtent"
+	],
+	"name" : "AtomicMap",
+	"type" : "normal"
+}

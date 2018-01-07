@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "StephaneDucasse 2/13/2015 20:14",
+	"super" : "Object",
+	"category" : "Atomic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"isPreview",
+		"smallScreen"
+	],
+	"name" : "AtomicMapStyle",
+	"type" : "normal"
+}
