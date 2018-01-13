@@ -1,0 +1,1 @@
+Basically Carbon atom shows a "C"

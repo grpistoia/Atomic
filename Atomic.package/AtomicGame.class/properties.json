@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "StephaneDucasse 2/15/2015 10:34",
+	"commentStamp" : "GustavoPistoia 12/24/2017 16:35",
 	"super" : "BorderedMorph",
 	"category" : "Atomic",
 	"classinstvars" : [ ],
@@ -8,11 +8,8 @@
 	"instvars" : [
 		"selected",
 		"currentMap",
-		"titleMorph",
-		"infoMorph",
 		"pointsMorph",
 		"mapMoves",
-		"gameMoves",
 		"fastMoves"
 	],
 	"name" : "AtomicGame",

@@ -1,34 +1,38 @@
 structure
 showHelpWindow
-	((StringHolder new contents: 'Instructions:
-  The aim of ATOMIC is to build chemical molecules using given atoms. The goal is to solve a level with as few moves as possible.
-  The level is solved when the new molecule has the same structure as shown by the preview molecule (on the top right). In the higher levels, some tactical skill will be neccessary for solving the puzzle.
-  Clicking on an atom will cause to be selected (like with [Tab] key). The selected atom will move in any direction until it reaches a border or another atom. Direction is specified with cursor keys ([Up][Down][Left][Right]). If all the atoms touch each other with the corresponding connectors, they form a molecule. The atoms can only be moved one at a time. 
+	"Display a brief info"
+	| info dialog |
+	info := 
+'Instructions:
+  The aim of ATOMIC is to build chemical molecules using the given atoms. Each level is solved when the new molecule has the same structure as shown in the preview (on the top right side).
+  Clicking on an atom will select it, same as if you press [TAB] key. Use the cursor keys to move the atom, which will only stop when collides with another atom or hit the wall.
 
 Controls:
-   ''Record'' shows the lowest number of moves used for this level.
-   ''Moves'' shows the current number of moves.
-   ''Total'' shows the number of moves in all the levels.
-    [Prev][Next] buttons on the top left changes the game level.
-    [Restart] button restarts to the current level.
-    [Quit] closes the game.
+	[Tab]..... Selects the next atom.
+	[Cursor].. Move the selected atom on that direction.
+
+	[Prev].... Goes to previous level.
+	[Reset]... Restarts to the current level.
+	[Next].... Jumps to the next level.
+	[Fast].... Speed when moving the atom.
+	[Quit].... Leaves the game.
 
 Dedicated to:
-  - Smalltalk & Linux Comunities.
+	Smalltalk & Linux Communities.
 
-Thanks to:
-  - Diego Gomez Deck.
-  - Alejandro Reimondo.
-  - Andreas Wüst.
-
+Thanks for your help:
+	Diego Gomez Deck.
+ 	Alejandro Reimondo.
+	Andreas Wüst.
+	Stephane Ducasse.
+	Esteban Lorenzano.
+		
 Implemented By:
-  Gustavo Rafael Pistoia.
-  
+	Gustavo Rafael Pistoia.
+'.
+		
+	dialog := AboutDialogWindow new.
+	dialog textFont: StandardFonts codeFont.
+	dialog text: info.
+	dialog openInWorld.
 
-')
-		embeddedInMorphicWindowLabeled: 'ATOMIC')
-		setWindowColor: (Color
-				r: 0.032
-				g: 0.968
-				b: 1.0);
-		 openInWorld: self world extent: 400 @ 320

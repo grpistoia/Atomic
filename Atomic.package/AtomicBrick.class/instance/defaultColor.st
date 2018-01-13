@@ -1,3 +1,4 @@
-visual properties
+initialize
 defaultColor
-	^ Color darkGray
+	"Originally... a bit boring... Color lightGray twiceLighter"
+	^ AtomicGame pharoMatchDarkColor.

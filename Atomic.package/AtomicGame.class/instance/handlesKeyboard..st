@@ -1,3 +1,3 @@
 event handling
 handlesKeyboard: evt
-	^ true
+	^ currentMap isNotNil

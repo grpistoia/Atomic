@@ -1,6 +1,3 @@
-access properties
+initialize
 defaultColor
-	^ Color
-		r: 0
-		g: 0
-		b: 0.6
+	^ Color r: 0 g: 0 b: 0.6

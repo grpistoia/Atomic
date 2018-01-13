@@ -1,0 +1,1 @@
+Basically Hydrogen atom shows a "H"

@@ -3,4 +3,4 @@ goPrevLevel
 	| map |
 	map := self createPrevMap.
 	map
-		ifNotNil: [self goLevel: map]
+		ifNotNil: [self buildLevel: map]

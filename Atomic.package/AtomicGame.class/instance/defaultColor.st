@@ -1,3 +1,3 @@
-initialization
+initialize
 defaultColor
-	^ Color yellow veryMuchLighter
+	^ self class pharoMatchLightColor.

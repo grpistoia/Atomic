@@ -1,3 +1,3 @@
-stepping and presenter
+model - stepping
 stepTime
 	^ 15

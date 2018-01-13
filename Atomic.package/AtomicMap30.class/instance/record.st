@@ -1,3 +1,3 @@
 access properties
 record
-	^ 66
+	^ 36

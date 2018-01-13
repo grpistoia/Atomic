@@ -1,5 +1,4 @@
 drawing
 drawOn: aCanvas 
-
+	self drawActivation: aCanvas.
 	self drawLinks: aCanvas.
-	self drawActivation: aCanvas

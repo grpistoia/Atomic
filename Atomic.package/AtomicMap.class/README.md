@@ -1,0 +1,1 @@
+Base class for the representation of the map structure. Maps basically have the configuration, a record number of moves and name.

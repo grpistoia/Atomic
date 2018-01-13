@@ -1,0 +1,1 @@
+This represents a brick of the wall. Allows to close the maze.

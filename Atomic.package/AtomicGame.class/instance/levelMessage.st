@@ -4,5 +4,5 @@ levelMessage
 	number := self availableMaps indexOf: currentMap class.
 	message := 'Level ' , number asString.
 	self isSmallScreen
-		ifFalse: [ message := message , ': ' , currentMap levelName ].
+		ifFalse: [ message := message , ': ' , currentMap levelName , '.'].
 	^ message

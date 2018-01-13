@@ -1,0 +1,1 @@
+Basically Nitrogen atom shows an "N"

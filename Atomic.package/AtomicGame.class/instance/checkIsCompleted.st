@@ -1,20 +1,23 @@
 actions
 checkIsCompleted
 	"Checks if the level is completed"
-	| map result |
-	result := ((self submorphs
-				select: [:each | each isKindOf: AtomicAtom])
-				select: [:each | each isPreview not])
-				allSatisfy: [:each | each isFullyLinked].
-	result
-		ifTrue: ["how many movements"
-			gameMoves := gameMoves + mapMoves.
-			"Has next map?"
-			map := self createNextMap.
-			map
-				ifNil: ["No selection"
-					self select: nil.
-					"show a final message"
-					infoMorph contents: 'YOU WON !!!!!!']
-				ifNotNil: ["Go to the next level"
-					self goLevel: map]]
+	| map subList hasCompleted |
+	subList := self submorphs select: [:each | (each class inheritsFrom: AtomicAtom) and: [ each isPreview not] ].	
+	hasCompleted := subList allSatisfy: [:each | each isFullyLinked].	
+   hasCompleted ifFalse: [  ^ self. ].
+
+	"Has next map?"
+	map := self createNextMap.
+	map ifNotNil: [
+		"Go to the next level"
+		self buildLevel: map.
+		"Continue"
+		^ self.
+	].
+
+	"No selection"
+	self activateAtom: nil.
+	"Make it pretty"
+	pointsMorph color: Color red.
+	"show a final message"
+	pointsMorph contents: 'YOU WON !!!!!!'.

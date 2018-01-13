@@ -1,4 +1,4 @@
-access properties
+element creation
 createLayout
 	layout := Matrix rows: 11 columns: 13.
 	layout atRow: 1 put: #(1 1 1 1 1 1 1 1 1 1 1 1 1 ).

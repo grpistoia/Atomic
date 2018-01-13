@@ -4,6 +4,5 @@ createPrevMap
 	maps := self availableMaps.
 	mapName := currentMap class.
 	index := maps indexOf: mapName.
-	^ index > 1
-		ifTrue: [ (maps at: index - 1) new]
-		ifFalse: [ nil]
+	index > 1 ifTrue: [ ^ (maps at: index - 1) new ].
+	^ nil.

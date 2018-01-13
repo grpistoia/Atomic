@@ -1,4 +1,4 @@
 instance creation
 newForPreview
-	^  self new isPreview: true ; yourself
+	^  self new isPreview: true.
 	

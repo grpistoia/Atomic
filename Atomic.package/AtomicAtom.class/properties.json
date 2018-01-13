@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "GustavoPistoia 12/24/2017 16:06",
 	"super" : "AtomicComponent",
 	"category" : "Atomic",
 	"classinstvars" : [ ],
@@ -7,8 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"links",
-		"forcedLinks",
-		"previewPosition"
+		"forcedLinks"
 	],
 	"name" : "AtomicAtom",
 	"type" : "normal"

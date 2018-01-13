@@ -1,0 +1,1 @@
+Basically Oxygen atom shows an "O"

@@ -2,5 +2,4 @@ structure
 goNextLevel
 	| map |
 	map := self createNextMap.
-	map
-		ifNotNil: [self goLevel: map]
+	map 	ifNotNil: [ self buildLevel: map ].
