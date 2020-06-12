@@ -1,3 +1,3 @@
-initialize
+initialization
 defaultColor
-	^ self class pharoMatchLightColor.
+	^ self class matchingLightColor.

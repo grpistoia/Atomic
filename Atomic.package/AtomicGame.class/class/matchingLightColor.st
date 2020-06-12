@@ -1,3 +1,3 @@
 preferences-colors
-pharoMatchLightColor
+matchingLightColor
 	^ Color fromHexString: 'ECF8FF'.

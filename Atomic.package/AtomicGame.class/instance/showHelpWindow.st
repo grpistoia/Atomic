@@ -28,7 +28,7 @@ Thanks for your help:
 	Esteban Lorenzano.
 		
 Implemented By:
-	Gustavo Rafael Pistoia.
+	Gustavo Pistoia.
 '.
 		
 	dialog := AboutDialogWindow new.

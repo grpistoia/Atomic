@@ -1,4 +1,4 @@
-initialization
+accessing
 withMapStyle: aMapStyle
 	isActive := false.
 	isMoving := false.

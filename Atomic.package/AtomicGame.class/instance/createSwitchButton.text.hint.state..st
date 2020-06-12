@@ -8,7 +8,7 @@ createSwitchButton: anAction text: aText hint: aHint state: aBoolean
 	button useSquareCorners.
 	button borderWidth: 0.
 	button setBalloonText: aHint.
-	button offColor: self class pharoMatchDarkColor lighter.
-	button onColor: self class pharoMatchDarkColor darker.
+	button offColor: self class matchingDarkColor lighter.
+	button onColor: self class matchingDarkColor darker.
 	button setSwitchState: aBoolean.
 	^ button.

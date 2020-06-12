@@ -11,5 +11,5 @@ drawLinks: aCanvas
 		lineWidth := linksCount * 2.
 		endPos := (maxSize - lineWidth + linksCount) * link + startPos.
 		"draw the line"
-		aCanvas line: startPos to: endPos width: lineWidth color: Color darkGray.
+		aCanvas line: startPos to: endPos width: lineWidth color: AtomicGame linkColor.
 	]

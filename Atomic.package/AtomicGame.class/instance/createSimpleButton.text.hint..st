@@ -8,6 +8,6 @@ createSimpleButton: anAction text: aText hint: aHint
 	button useSquareCorners.
 	button borderWidth: 0.
 	button setBalloonText: aHint.
-	button color: self class pharoMatchDarkColor lighter.
+	button color: self class matchingDarkColor lighter.
 	^ button.
 		

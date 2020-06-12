@@ -10,7 +10,8 @@ drawAtom: aCanvas
 			"Normal screen.. leave some space"
 			newBound := newBound insetBy: 5.
 			"shadow"
-			aCanvas fillOval: (newBound translateBy: 2) color: Color veryLightGray.
+			aCanvas fillOval: (newBound translateBy: 2) color: Color lightGray.
+			aCanvas fillOval: (newBound translateBy: 1) color: Color veryLightGray.
 		].
 	"links.."
 	self drawLinks: aCanvas.

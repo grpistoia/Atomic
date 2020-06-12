@@ -1,3 +1,3 @@
 preferences-colors
-pharoMatchDarkColor
+matchingDarkColor
 	^ Color fromHexString: '62A7D1'.

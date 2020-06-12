@@ -7,6 +7,6 @@ doMovement
 			ifFalse: [
 				distances := futurePosition - self position.
 				direction := distances x sign @ distances y sign.
-				self position + (direction + (distances // 6))
+				self position + (direction + (distances // 4))
 			]
 		).

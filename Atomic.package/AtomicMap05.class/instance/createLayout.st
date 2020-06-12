@@ -1,6 +1,6 @@
 element creation
 createLayout
-	layout := Matrix rows: 11 columns: 12.
+	layout := Array2D rows: 11 columns: 12.
 	layout atRow: 1 put: #(0 1 1 1 1 1 1 1 1 1 0 0 ).
 	layout atRow: 2 put: #(0 1 #(#H 5 1 #sw) 1 0 1 0 1 0 1 0 0 ).
 	layout atRow: 3 put: #(0 1 0 1 0 1 0 1 0 1 1 1 ).
