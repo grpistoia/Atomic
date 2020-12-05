@@ -8,6 +8,8 @@ The game will show a preview of the molecule to build on the top right corner. Y
 
 This game was inspired on Atomix, from Ubuntu Linux.
 
+To open the GitHub Page click [here](https://grpistoia.github.io/Atomic/)
+
 ## Getting Started
 
 ### Versions
@@ -28,13 +30,13 @@ Version 3: Updated on 2020, replaced Matrix class with Array2D and runs in Pharo
 
 Open the playground and run:
 
-`  AtomicGame new openInWorld.`
+`AtomicGame new openInWorld.`
 
 ## Authors
 
 **Gustavo Pistoia**
 
-This was actually my first project in Smalltalk. I started coding this somewhere in 2005 as a way of learning Smalltalk, surely can be improved, but the overall code seems reasonable.
+This was actually my first project in Smalltalk. I started coding this game somewhere in 2005 as a way of learning Smalltalk.
 
 ## License
 
@@ -45,6 +47,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 * The Pharo community, for always answering questions and providing constant support.
 * Stephane Ducasse, who make a few code changes to keep it running back in 2015.
 * Guilherme de S. Pastore & Robert Roth, who I just found out were the coders of Atomix for Linux.
-
-![Molecules](Screenshots/Atomic-Molecules.png)
-
